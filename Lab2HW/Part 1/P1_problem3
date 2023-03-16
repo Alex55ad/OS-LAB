@@ -1,0 +1,4 @@
+LINE 6: The text-files also contain the special character called "new line" ("\n"), whose byte code is 10.
+LINE 10: A text file is a file consisting in printable character.
+LINE 11: This is the last line in this file, containing the numer 321.
+3

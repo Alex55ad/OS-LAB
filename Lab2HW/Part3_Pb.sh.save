@@ -1,0 +1,30 @@
+#Part 3 problem
+if test $# -ne 1
+then
+	echo USAGE: There must be only one input argument
+	exit
+else
+	echo \ Currently using the parameter: $1 
+fi
+
+set_dir=$1
+
+if test ! -d $set_dir
+then
+	echo ERROR:  Parameter is not a directory
+	exit
+fi
+
+function list_files()
+{
+ALLFILES = 0
+for fl in $set_dir/*
+do
+	if test -f "$fl"
+	then
+		echo File: $fl
+		ALLFILES=$((ALLFILES + 1))
+	fi
+done
+echo \ALLFILES
+}

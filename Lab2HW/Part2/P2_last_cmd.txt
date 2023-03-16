@@ -1,0 +1,18 @@
+The number of command line parameters are:
+$#=0
+The value of the last (position 0) parameter:
+Variant 1 $$# ($$ is the id of a process): 21453#
+Variant 2 \$$# (use escape character): $0
+Variant 3 eval \$$#: last-cmd-line-parameters.sh
+The number of command line parameters are:
+$#=3
+The value of the last (position 3) parameter:
+Variant 1 $$# ($$ is the id of a process): 21455#
+Variant 2 \$$# (use escape character): $3
+Variant 3 eval \$$#: var3
+The number of command line parameters are:
+$#=3
+The value of the last (position 3) parameter:
+Variant 1 $$# ($$ is the id of a process): 21459#
+Variant 2 \$$# (use escape character): $3
+Variant 3 eval \$$#: var 3

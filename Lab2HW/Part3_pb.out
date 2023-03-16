@@ -1,0 +1,4 @@
+ Currently using the parameter: ./test-dir
+ ./test-dir/a ./test-dir/aa ./test-dir/a b c ./test-dir/abc ./test-dir/b ./test-dir/bbb ./test-dir/c ./test-dir/f1 ./test-dir/f1.c ./test-dir/f2 ./test-dir/f2.c ./test-dir/f2.txt ./test-dir/f3.txt ./test-dir/f4.c ./test-dir/f4.txt ./test-dir/f5 ./test-dir/f5.txt ./test-dir/f i l e ./test-dir/file1 ./test-dir/file2 ./test-dir/file 3 ./test-dir/f i l e.c ./test-dir/f i l e.txt ./test-dir/x y z 24
+ ./test-dir/f1.c ./test-dir/f2.c ./test-dir/f4.c ./test-dir/f i l e.c 1
+ ./test-dir/d1/ ./test-dir/d2/ ./test-dir/d3/ ./test-dir/d 4/ ./test-dir/d5/ 5

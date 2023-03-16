@@ -1,0 +1,6 @@
+ This command prints every 1 input paramater
+p1 p2 p3 p4 p5 p6 p7 p8 p9 
+ This command prints every 2 input paramater
+p2 p4 p6 p8 
+ This command prints every 3 input paramater
+p3 p6 p9 

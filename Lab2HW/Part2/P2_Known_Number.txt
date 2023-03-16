@@ -1,0 +1,27 @@
+USe $# to display the number of parameters specified when running the script in the command line
+The number of parameters specified in the command line is: 0
+
+Execute the script with at least 2 parameters!
+USAGE: cmd-line-parameters-known-number.sh p1 p2
+USe $# to display the number of parameters specified when running the script in the command line
+The number of parameters specified in the command line is: 3
+
+The first three command line words are
+$0="cmd-line-parameters-known-number.sh"
+$1="1" (first parameter)
+$2="2" (second parameter)
+
+If the number of parameters is greater than 9, use ${N} to refer to the N-th parameter
+Execute the script with at least 10 parameters!
+USAGE: cmd-line-parameters-known-number.sh p1 p2 p3 p4 p5 p6 p7 p8 p9 p10
+USe $# to display the number of parameters specified when running the script in the command line
+The number of parameters specified in the command line is: 2
+
+The first three command line words are
+$0="cmd-line-parameters-known-number.sh"
+$1="P1 with space" (first parameter)
+$2="P2 with space" (second parameter)
+
+If the number of parameters is greater than 9, use ${N} to refer to the N-th parameter
+Execute the script with at least 10 parameters!
+USAGE: cmd-line-parameters-known-number.sh p1 p2 p3 p4 p5 p6 p7 p8 p9 p10
